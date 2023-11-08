@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Guess Number</title>
+	</head>
+	<body>
+		<header>
+			<h1>GUESS THE NUMBER</h1>
+		</header>
+		<main>
+			<h1 class="banner">1.2.3....100</h1>
+
+			<div class="form-group">
+				<input
+					type="number"
+					id="number-guess"
+					class="form-control"
+					placeholder="Gues the Number" />
+			</div>
+			<div class="result">
+				<!-- resutlt -->
+			</div>
+
+			<div class="btns">
+				<button id="check" class="btn btn-check">Check Me</button>
+				<button id="reset" class="btn btn-reset">Reset</button>
+			</div>
+			<div class="history">
+				<!-- HISTORY -->
+				<div class="history-head">
+					<h1>history</h1>
+					<span>0</span>
+				</div>
+				<ul class="history-list"></ul>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
